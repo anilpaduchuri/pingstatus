@@ -279,7 +279,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.3.2</version>
 				<executions>
-		<!-- npm install 
+		<!-- npm install -->
 					<execution>
 						<id>npm-install</id>
 						<phase>validate</phase>
@@ -292,9 +292,9 @@
 								install
 							</commandlineArgs>
 						</configuration>
-					</execution> -->
+					</execution> 
 					<!-- run apigeelint -->
-					<!-- its got issues on Jenkins 
+					<!-- its got issues on Jenkins -->
 					<execution>
 						<id>apigeelint</id>
 						<phase>validate</phase>
@@ -308,7 +308,7 @@
 							</commandlineArgs>
 						</configuration>
 					</execution>
-					-->
+					
 					<!-- run unit tests -->
 					<execution>
 						<id>unit</id>
