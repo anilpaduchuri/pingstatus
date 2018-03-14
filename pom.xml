@@ -324,7 +324,7 @@
 						</configuration>
 					</execution>
 					<!-- run integration tests -->
-					<execution>
+					<!-- <execution>
 						<id>integration</id>
 						<phase>install</phase>
 						<goals>
@@ -336,7 +336,7 @@
 								./node_modules/cucumber/bin/cucumber.js target/test/integration/features --tags ${api.testtag}
 							</commandlineArgs>
 						</configuration>
-					</execution>
+					</execution> -->
 				</executions>
 			</plugin>
 
