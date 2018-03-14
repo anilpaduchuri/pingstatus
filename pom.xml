@@ -51,7 +51,7 @@
 				<api.northbound.domain>${env.API_DOMAIN_TEST}</api.northbound.domain>
 				<api.testtag>~@errorHandling,~@health,~@wip,~@mock</api.testtag>
 				<apigee.delay>3000</apigee.delay>
-				<clientId>UM6ZAT8vVUoMP8HSj10pDt7PC3LnuyHP</clientId>
+				<clientId>2VwoxQhCxaKRHtwHDCTXzAMy5rfnIzWA</clientId>
 			</properties>
 		</profile>
 		<profile>
