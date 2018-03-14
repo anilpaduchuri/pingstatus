@@ -333,7 +333,7 @@
 						<configuration>
 							<executable>node</executable>
 							<commandlineArgs>
-								./node_modules/cucumber/bin/cucumber.js target/test/integration/features --tags ${api.testtag}
+								./node_modules/cucumber/bin/cucumber.js target/test/integration/features 
 							</commandlineArgs>
 						</configuration>
 					</execution> -->
