@@ -1,4 +1,2 @@
 node_modules
-target/apiproxy
-target/test
-target/*.zip
+target
